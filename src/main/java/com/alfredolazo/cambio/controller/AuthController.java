@@ -59,6 +59,7 @@ public class AuthController {
                         passwordEncoder.encode(nuevoUsuario.getPassword()));
         Set<String> rolesStr = nuevoUsuario.getRoles();
         Set<Rol> roles = new HashSet<>();
+
         for (String rol : rolesStr) {
             switch (rol) {
                 case "admin":
