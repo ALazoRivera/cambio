@@ -44,12 +44,6 @@ public class Usuario {
     public Usuario() {
     }
 
-
-
-
-
-
-
     public Usuario(@NotNull String nombre, @NotNull String apellido, @NotNull String dni, @NotNull String foto,
                    @NotNull String nombreUsuario, @NotNull String email, @NotNull String password) {
         super();
@@ -61,12 +55,6 @@ public class Usuario {
         this.email = email;
         this.password = password;
     }
-
-
-
-
-
-
 
     public Long getId() {
         return id;
@@ -140,13 +128,9 @@ public class Usuario {
         this.dni = dni;
     }
 
-
-
     public String getFoto() {
         return foto;
     }
-
-
 
     public void setFoto(String foto) {
         this.foto = foto;

@@ -87,7 +87,6 @@ public class UsuarioPrincipal implements UserDetails {
         return nombreUsuario;
     }
 
-
     @Override
     public boolean isAccountNonExpired() {
         return true;

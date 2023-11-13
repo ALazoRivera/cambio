@@ -6,7 +6,6 @@ public class LoginUsuario {
 
     private String password;
 
-
     public String getNombreUsuario() {
         return nombreUsuario;
     }

@@ -5,7 +5,6 @@ import com.alfredolazo.cambio.enums.RolNombre;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
-
 @Entity
 @Table(name="tbl_rol")
 public class Rol {

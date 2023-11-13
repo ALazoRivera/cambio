@@ -1,6 +1,5 @@
 package com.alfredolazo.cambio.security;
 
-
 import com.alfredolazo.cambio.security.jwt.JwtEntryPoint;
 import com.alfredolazo.cambio.security.jwt.JwtTokenFilter;
 import com.alfredolazo.cambio.service.UserDetailsServiceImpl;
@@ -17,7 +16,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-
 
 @Configuration
 @EnableWebSecurity
@@ -54,7 +52,6 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsServiceImpl).passwordEncoder(passwordEncoder());
     }
-
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {

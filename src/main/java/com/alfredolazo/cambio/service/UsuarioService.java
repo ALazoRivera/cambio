@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 import java.util.Optional;
 
-
 @Service
 @Transactional
 public class UsuarioService {

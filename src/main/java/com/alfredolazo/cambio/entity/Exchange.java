@@ -20,7 +20,6 @@ public class Exchange {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long exchange_id;
-
     private Long currency_change_from;
 
     private Long currency_change_to;

@@ -1,7 +1,5 @@
 package com.alfredolazo.cambio.controller;
 
-
-
 import com.alfredolazo.cambio.dto.JwtDTO;
 import com.alfredolazo.cambio.dto.LoginUsuario;
 import com.alfredolazo.cambio.dto.Mensaje;
@@ -41,8 +39,6 @@ public class AuthController {
 
     @Autowired
     UsuarioService usuarioService;
-
-
 
     @Autowired
     RolService rolService;
